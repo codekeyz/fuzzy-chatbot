@@ -1,0 +1,4 @@
+crons:
+  - id: refresh_auth_token
+    schedule: "0/2 * * * *"
+    path: "/auth/refresh"
